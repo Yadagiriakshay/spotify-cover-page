@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family:'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 100px;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    padding: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    display:flex;
+    margin:23px auto;
+    width:70%;
+    border-radius: 12px;
+    padding:25px;
+    background-image: url('interstellar_background.jpg');
+    background-size:720px 600px;
+}
+
+
+#my_progress{
+    width:80vw;
+
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(20, 19, 18);
+    width: 60%;
+    margin: 8px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    
+
+}
+.songitem img{
+    height:40px;
+    width:40px;
+    margin: 10px;
+    border-radius: 60px;
+}
+.timestamp{
+  margin:0px 10px;
+  
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 50px;
+}
+.songinfo img{
+    width: 50px;
+    height:10px;
+    opacity: 0;
+    transition: opacity is ease-in;
+}
+.songinfo{
+    position: absolute;
+    left: 9vw;
+    margin-top:15px;
+}
+
+
+
+
